@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
 }
-const { Client, Intents, TextChannel, MessageEmbed } = require('discord.js')
+const { Client, Intents } = require('discord.js')
 
 const Commands = require('./commands')
 

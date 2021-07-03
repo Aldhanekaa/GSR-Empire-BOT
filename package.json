@@ -1,21 +1,22 @@
 {
-  "name": "mts-technonatura-discord-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/main.js"
-  },
-  "keywords": [],
-  "author": "Aldhan (He/Him)",
-  "license": "MIT",
-  "dependencies": {
-    "discord-buttons": "^4.0.0",
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+    "name": "mts-technonatura-discord-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon src/main.js",
+        "start": "node src/main.js"
+    },
+    "keywords": [],
+    "author": "Aldhan (He/Him)",
+    "license": "MIT",
+    "dependencies": {
+        "discord-buttons": "^4.0.0",
+        "discord.js": "^12.5.3",
+        "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
 }
